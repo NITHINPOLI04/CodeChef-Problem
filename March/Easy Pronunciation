@@ -3,13 +3,13 @@
 # Author: P. Nithin
 
 """
-📝 Problem Statement:
+Problem Statement:
 You are given a string S of length N consisting of lowercase English letters. A word is considered hard to pronounce if it contains four or more consecutive consonants; otherwise, it is easy to pronounce.
 
 Our task is to determine whether the given word is easy to pronounce (YES) or hard to pronounce (NO).
 """
 
-# 🚀 Approach:
+Approach:
 """
 1. Read the number of test cases.
 2. For each test case:
@@ -22,13 +22,13 @@ Our task is to determine whether the given word is easy to pronounce (YES) or ha
    - If loop completes, print "YES".
 """
 
-# 🕒 Complexity Analysis:
+Complexity Analysis:
 """
 - Time Complexity: O(n) per test case (single pass through string)
 - Space Complexity: O(1) (constant extra space)
 """
 
-# ✅ Code Implementation:
+Code Implementation:
 def solve():
     t = int(input())  # Number of test cases
     vowels = {'a', 'e', 'i', 'o', 'u'}  # Set of vowels
@@ -50,6 +50,5 @@ def solve():
         else:
             print("YES")  # If loop completes without break
 
-# 🚀 Execution starts here
 if __name__ == "__main__":
     solve()
